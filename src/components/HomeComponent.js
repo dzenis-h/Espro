@@ -7,6 +7,16 @@ const Home = () => {
     document.title = "E S P R O"; // making the document title dynamic
   }, []);
 
+  setTimeout(() => {
+    (() => {
+      // Cloning divs where particles go in order not to put 300 of them in the markup :)
+      const node = document.querySelector(".parts");
+      [...Array(300)].forEach((_) =>
+        node.parentNode.insertBefore(node.cloneNode(true), node)
+      );
+    })();
+  }, 200);
+
   return (
     <Fragment>
       <main id="home">
