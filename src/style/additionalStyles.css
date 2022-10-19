@@ -505,14 +505,14 @@ canvas {
 .loader,
 .loader:before,
 .loader:after {
-  background: #eece1a;
+  background: #04a8d1;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
   height: 4em;
 }
 .loader {
-  color: #eece1a;
+  color: #04a8d1;
   text-indent: -9999em;
   margin: 88px auto;
   position: relative;
