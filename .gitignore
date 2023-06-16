@@ -18,7 +18,6 @@ src/documents/Dzenis H.pdf
 /node_modules
 /.pnp
 .pnp.js
-build
 
 # testing
 /coverage

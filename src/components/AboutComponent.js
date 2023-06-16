@@ -6,7 +6,7 @@ import { Wrapper } from "./darkMode/Wrapper";
 
 import Footer from "../components/layout/FooterComponent";
 
-import leftPic from "../assets/2.png";
+import leftPic from "../assets/2.webp";
 
 const About = () => {
   const themeState = useTheme();
