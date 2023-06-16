@@ -20,15 +20,6 @@ import {
   p7,
   p8,
   p9,
-  j1,
-  j2,
-  j3,
-  j4,
-  j5,
-  j6,
-  j7,
-  j8,
-  j9,
 } from "../helper/imageIndex";
 
 const ImageComponent = React.lazy(() => import("../helper/ImageComponent"));
@@ -66,7 +57,7 @@ const Work = () => {
             <div className="item">
               {/* Removed 3rd party package and implemented React.lazy && Suspense */}
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p1} jpg={j1} title="Espro" />
+                <ImageComponent webp={p1} title="Espro" />
               </Suspense>
             </div>
             <HighlightedDescription />
@@ -75,49 +66,48 @@ const Work = () => {
           <div className="projects">
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p4} jpg={j4} />
+                <ImageComponent webp={p4} />
               </Suspense>
             </div>
 
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p2} jpg={j2} title="Cup of coffee" />
+                <ImageComponent webp={p2} title="Cup of coffee" />
               </Suspense>
             </div>
 
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p3} jpg={j3} title="Making coffee 1" />
+                <ImageComponent webp={p3} title="Making coffee 1" />
               </Suspense>
             </div>
 
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p5} jpg={j5} title="Colored cups" />
+                <ImageComponent webp={p5} title="Colored cups" />
               </Suspense>
             </div>
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p6} jpg={j6} title="Coffee shop" />
+                <ImageComponent webp={p6} title="Coffee shop" />
               </Suspense>
             </div>
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
                 <ImageComponent
                   webp={p7}
-                  jpg={j7}
                   title="People enjoying good coffee"
                 />
               </Suspense>
             </div>
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p8} jpg={j8} title="Man making coffee" />
+                <ImageComponent webp={p8} title="Man making coffee" />
               </Suspense>
             </div>
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent webp={p9} jpg={j9} title="Woman makes coffee" />
+                <ImageComponent webp={p9} title="Woman makes coffee" />
               </Suspense>
             </div>
             {/* E N D */}

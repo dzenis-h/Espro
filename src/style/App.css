@@ -12,6 +12,10 @@ span.the_mern_stack {
   letter-spacing: 5px;
 }
 
+main#about {
+  padding: 1.25rem;
+}
+
 .black {
   color: #000000 !important;
   text-shadow: none !important;
@@ -149,12 +153,7 @@ main#home {
 /* If WebP is supported  */
 /* REMEMBER - '.webp' CLASS NEEDS TO GO FIRST FOR THIS TO WORK  */
 .webp main#home {
-  background-image: url("../assets/img/background.webp");
-}
-
-/* Fallback if WebP is NOT supported  */
-.no-webp main#home {
-  background-image: url("../assets/backup/background.jpg");
+  background-image: url("../assets/background.webp");
 }
 
 main#home::before {
@@ -322,26 +321,20 @@ body {
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  /* background: url("../assets/img/portrait.webp"); */
+  background: url("../assets/portrait.webp");
   border-radius: 50%;
   border: solid 3px #04a8d1;
 }
 
 /* If WebP is supported  */
 .webp .portrait {
-  background: url("../assets/img/logo.webp");
+  background: url("../assets/logo.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.no-webp .portrait {
-  background: url("../assets/backup/logo.png");
-  margin-left: 1rem;
-  background-repeat: no-repeat;
 }
 
 .menu .nav-item {
@@ -960,18 +953,14 @@ textarea.reverse {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../assets/img/logo.webp");
+    background: url("../assets/logo.webp");
     width: 150px;
     height: 150px;
   }
 
   /* If WebP is supported  */
   .webp .portrait {
-    background: url("../assets/img/logo.webp");
-  }
-
-  .no-webp .portrait {
-    background: url("../assets/backup/logo.png");
+    background: url("../assets/logo.webp");
   }
 
   .about-info {
@@ -1097,9 +1086,6 @@ textarea.reverse {
     font-size: 0.77rem;
     letter-spacing: normal;
   }
-  /* .menu-btn {
-    top: 1rem;
-  } */
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {

@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer-text">
             <p className="textShadow">Best coffee ever </p>
             <p className="textShadow">
-              E s p r o{" "}
+              E s s p r o{" "}
               <span role="img" aria-label="Coffee logo">
                 ☕
               </span>{" "}

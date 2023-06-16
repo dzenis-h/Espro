@@ -1,9 +1,9 @@
 {
-  "name": "reactive-portfolio",
+  "name": "espro",
   "author": "Dzenis H.",
-  "version": "1.7.0",
-  "homepage": "https://dzenis-h.com",
-  "description": "A peronal portfolio site build with the help of React and its usual friends :)",
+  "version": "1.8.0",
+  "homepage": "https://dzenis.tech",
+  "description": "Espro - A web app made for a local coffee shop. ☕",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",
@@ -25,8 +25,8 @@
     "vara": "^1.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy:gh": "gh-pages -d build",
