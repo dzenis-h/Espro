@@ -1,4 +1,5 @@
 import React from "react";
+import leftPic from "../../assets/2.webp";
 
 const Contact = () => {
   return (
@@ -15,48 +16,51 @@ const Contact = () => {
         </small>
       </h2>
 
-      <div className="boxes">
-        <div className="xsm text-secondary">
-          <i className="fab fa-linkedin-in" />
-          <a
-            href="https://www.linkedin.com/in/dzenis-h/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </div>
+      <div className="contact-flex">
+        <img src={leftPic} className="leftPic" />
+        <div className="boxes">
+          <div className="xsm text-secondary">
+            <i className="fab fa-linkedin-in" />
+            <a
+              href="https://www.linkedin.com/in/dzenis-h/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
 
-        <div className="xsm text-secondary">
-          <address>
-            Email us <i className="fas fa-at" />
-            <a href="mailto:dzenis.hankusic@gmail.com">Dzenis H.</a>
+          <div className="xsm text-secondary">
+            <address>
+              Email us <i className="fas fa-at" />
+              <a href="mailto:dzenis.hankusic@gmail.com">Dzenis H.</a>
+              <br />
+            </address>
+          </div>
+
+          <div className="xsm text-secondary">
+            <i className="fas fa-mobile-alt" />
+            <a href="tel:00387603311015">Phone: (+387) 60-33-11-015</a>
             <br />
-          </address>
-        </div>
+          </div>
 
-        <div className="xsm text-secondary">
-          <i className="fas fa-mobile-alt" />
-          <a href="tel:00387603311015">Phone: (+387) 60-33-11-015</a>
-          <br />
-        </div>
+          <div className="xsm text-secondary">
+            <i className="fas fa-map-marker-alt" />
+            <a
+              href="https://maps.google.com/?q=44.696107, 18.299074"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Address: Rijecka, Gracanica, 75320, BiH
+            </a>
+            <br />
+          </div>
 
-        <div className="xsm text-secondary">
-          <i className="fab fa-skype" />
-          <a href="skype:dzenis.hankusic?call">Call us via Skype: </a>{" "}
-          hdzenis@outlook.com
-        </div>
-
-        <div className="xsm text-secondary">
-          <i className="fas fa-map-marker-alt" />
-          <a
-            href="https://maps.google.com/?q=44.696107, 18.299074"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Address: Rijecka, Gracanica, 75320, BiH
-          </a>
-          <br />
+          <div className="xsm text-secondary">
+            <i className="fab fa-skype" />
+            <a href="skype:dzenis.hankusic?call">Call us via Skype: </a>{" "}
+            hdzenis@outlook.com
+          </div>
         </div>
       </div>
     </main>

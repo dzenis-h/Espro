@@ -418,8 +418,14 @@ header {
   top: auto;
 }
 
+ul {
+  list-style: none;
+}
+
 .text-secondary {
   color: #04a8d1 !important;
+  font-size: 1rem;
+  margin: auto;
 }
 
 .diff-text {
@@ -531,6 +537,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem;
+  flex-direction: column-reverse;
 }
 .boxes div {
   font-size: 1.5rem;
@@ -1175,4 +1182,54 @@ a.explore {
 .contact-us:hover {
   background-color: rgb(138, 132, 132);
   color: #fff;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.leftPic {
+  margin-top: 0.2em;
+  display: flex;
+}
+
+.about-parts {
+  color: #f4e8da;
+  font-family: "Lora", serif;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
+  font-size: 1em;
+  display: flex;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.about-flex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  margin-top: 0.2em;
+  display: flex;
+}
+
+@media screen and (max-width: 920px) {
+  .contact-flex {
+    flex-direction: column;
+  }
+  .leftPic {
+    width: fit-content;
+    justify-content: center;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+  }
 }
