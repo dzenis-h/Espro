@@ -500,12 +500,10 @@ ul {
 
 .highlightedProject img {
   width: 100%;
-  /* height: auto; */
   padding: 3px;
   border: 2px solid #ffff;
   padding: 2px;
-  /* border: 2px solid #000000;
-  background-color: #dbdb30; */
+  margin-bottom: 1rem;
 }
 
 .otherApps {
@@ -1178,6 +1176,12 @@ a.explore {
   background-color: #04a8d1;
   border-radius: 8px;
   border: solid 1px #5b9dec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin-right: 2rem;
 }
 
 .contact-us:hover {

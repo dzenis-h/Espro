@@ -42,6 +42,8 @@ const About = () => {
             of production at every stage of the process.
           </small>
 
+          
+
           <div className="contact-flex">
             <div className="coffee-wrapper">
               <Coffee />

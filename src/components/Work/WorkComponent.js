@@ -10,17 +10,7 @@ import { Wrapper } from "../darkMode/Wrapper";
 import HighlightedDescription from "./Highlighted/HighlightedDescription";
 import HighlightedList from "./Highlighted/HighlightedList";
 
-import {
-  p1,
-  p2,
-  p3,
-  p4,
-  p5,
-  p6,
-  p7,
-  p8,
-  p9,
-} from "../helper/imageIndex";
+import { p1, p2, p3, p4, p5, p6, p7, p8, p9 } from "../helper/imageIndex";
 
 const ImageComponent = React.lazy(() => import("../helper/ImageComponent"));
 
@@ -60,8 +50,8 @@ const Work = () => {
                 <ImageComponent webp={p1} title="Espro" />
               </Suspense>
             </div>
-            <HighlightedDescription />
-            <HighlightedList openVideo={() => setVideoOpen(true)} />
+            <HighlightedDescription openVideo={() => setVideoOpen(true)} />
+            <HighlightedList />
           </div>
           <div className="projects">
             <div className="item">
@@ -94,10 +84,7 @@ const Work = () => {
             </div>
             <div className="item">
               <Suspense fallback={<div className="loader"></div>}>
-                <ImageComponent
-                  webp={p7}
-                  title="People enjoying good coffee"
-                />
+                <ImageComponent webp={p7} title="People enjoying good coffee" />
               </Suspense>
             </div>
             <div className="item">

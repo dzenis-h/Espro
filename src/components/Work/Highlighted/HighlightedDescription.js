@@ -1,6 +1,6 @@
 import React from "react";
 
-const HighlightedDescription = () => {
+const HighlightedDescription = ({ openVideo }) => {
   return (
     <div className="item-description">
       <h4
@@ -28,6 +28,27 @@ const HighlightedDescription = () => {
         the sale our technical staff will provide you with the best technical
         support if needed. Prompt delivery, money back guarantee no question.
       </p>
+      <div className="highlightedList__icons">
+        <li style={{ listStyleType: "none" }}>
+          <a
+            href="#!"
+            id="video"
+            className="icons textShadow"
+            onClick={openVideo}
+            aria-label="Open the video demonstration"
+          >
+            <span
+              style={{
+                marginBottom: "1rem",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <i className="fab fa-youtube fa-2x" /> Watch Our Commercial
+            </span>
+          </a>
+        </li>
+      </div>
     </div>
   );
 };

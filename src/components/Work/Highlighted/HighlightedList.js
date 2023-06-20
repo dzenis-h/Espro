@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-const HighlightedList = ({ openVideo }) => {
+const HighlightedList = () => {
   return (
     <Fragment>
       <ul className="highlightedList">
-        <p>
+        <span>
           {" "}
           <span className="text-secondary" style={{ fontWeight: "bold" }}>
             GENERAL INFO:
@@ -22,7 +22,7 @@ const HighlightedList = ({ openVideo }) => {
               info@espro.com
             </li>
           </ul>{" "}
-        </p>
+        </span>
         <button
           onClick={() => (window.location = "mailto:yourmail@gmail.com")}
           className="contact-us"
@@ -30,20 +30,7 @@ const HighlightedList = ({ openVideo }) => {
           Contact Us
         </button>
         <hr />
-        <div className="highlightedList__icons">
-          <li style={{ listStyleType: "none", paddingBottom: ".5rem" }}>
-            <a
-              href="#!"
-              id="video"
-              className="icons textShadow"
-              onClick={openVideo}
-              aria-label="Open the video demonstration"
-            >
-              <i className="fab fa-youtube fa-2x" />
-              <span style={{ marginBottom: "1rem" }}>Watch Our Commercial</span>
-            </a>
-          </li>
-        </div>
+        
       </ul>
     </Fragment>
   );
