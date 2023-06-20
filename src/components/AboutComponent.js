@@ -4,7 +4,6 @@ import { useTheme } from "./darkMode/useTheme";
 import { Wrapper } from "./darkMode/Wrapper";
 import Footer from "../components/layout/FooterComponent";
 import Coffee from "./layout/Coffee";
-import leftPic from "../assets/2.webp";
 
 const About = () => {
   const themeState = useTheme();

@@ -4,82 +4,82 @@ import "../../style/Coffee.css";
 export default function Coffee() {
   return (
     <div>
-      <div class="container">
-        <div class="bar">
-          <div class="bold">
+      <div className="container">
+        <div className="bar">
+          <div className="bold">
             <h3>Bold</h3>
           </div>
-          <div class="circle top"></div>
-          <div class="circle middle"></div>
-          <div class="circle bottom"></div>
-          <div class="creamy">
+          <div className="circle top"></div>
+          <div className="circle middle"></div>
+          <div className="circle bottom"></div>
+          <div className="creamy">
             <h3>Creamy</h3>
           </div>
         </div>
-        <div class="coffee-cups">
-          <div class="cup-small doppio">
-            <div class="handle"></div>
+        <div className="coffee-cups">
+          <div className="cup-small doppio">
+            <div className="handle"></div>
           </div>
-          <div class="cup americano">
-            <div class="handle"></div>
+          <div className="cup americano">
+            <div className="handle"></div>
           </div>
-          <div class="cup-small macchiato">
-            <div class="handle"></div>
+          <div className="cup-small macchiato">
+            <div className="handle"></div>
           </div>
-          <div class="cup-small flatwhite">
-            <div class="handle"></div>
+          <div className="cup-small flatwhite">
+            <div className="handle"></div>
           </div>
-          <div class="cup cappuccino">
-            <div class="handle"></div>
+          <div className="cup cappuccino">
+            <div className="handle"></div>
           </div>
-          <div class="cup-long latte">
-            <div class="handle"></div>
-            <div class="bottom-handle"></div>
+          <div className="cup-long latte">
+            <div className="handle"></div>
+            <div className="bottom-handle"></div>
           </div>
         </div>
-        <div class="info">
-          <div class="first">
+        <div className="info">
+          <div className="first">
             <h1>doppio</h1>
             <p>Double shot of espresso. Straight.</p>
           </div>
-          <div class="second">
+          <div className="second">
             <h1>americano</h1>
             <p>Shots of espresso diluted with water</p>
           </div>
-          <div class="third">
+          <div className="third">
             <h1>Macchiato</h1>
             <p>Espresso with a dash of frothy foamed milk.</p>
           </div>
-          <div class="fourth">
+          <div className="fourth">
             <h1>Flat White</h1>
             <p>Double shot of espresso with steamed milk.</p>
           </div>
-          <div class="fifth">
+          <div className="fifth">
             <h1>Cappuccino</h1>
             <p>
               Double shot of espresso topped with an airy thick layer of foamed
               milk.
             </p>
           </div>
-          <div class="sixth">
+          <div className="sixth">
             <h1>Caffe Latte</h1>
             <p>A shot of espresso in steamed milk lightly topped with foam.</p>
           </div>
         </div>
       </div>
 
-      <div class="key">
-        <div class="circle espresso">
-          <p class="small">espresso</p>
+      <div className="key">
+        <div className="circle espresso">
+          <p className="small">espresso</p>
         </div>
-        <div class="circle milk">
-          <p class="small">steamed milk</p>
+        <div className="circle milk">
+          <p className="small">steamed milk</p>
         </div>
-        <div class="circle foam">
-          <p class="small">milk foam</p>
+        <div className="circle foam">
+          <p className="small">milk foam</p>
         </div>
-        <div class="circle water">
-          <p class="small">water</p>
+        <div className="circle water">
+          <p className="small">water</p>
         </div>
       </div>
     </div>

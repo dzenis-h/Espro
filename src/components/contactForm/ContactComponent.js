@@ -17,7 +17,7 @@ const Contact = () => {
       </h2>
 
       <div className="contact-flex">
-        <img src={leftPic} className="leftPic" />
+        <img src={leftPic} className="leftPic" alt="Coffee" />
         <div className="boxes">
           <div className="xsm text-secondary">
             <i className="fab fa-linkedin-in" />

@@ -24,7 +24,7 @@ const Home = () => {
           <div className="parts"></div>
         </div>
         <div className="wrapper animate__animated animate__backInUp">
-          <h1 className="specialFont text textShadow ">
+          <h1 className="specialFont text textShadow">
             <Link to="./about" className="explore">
               E x p l o r e
             </Link>

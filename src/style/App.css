@@ -1166,6 +1166,7 @@ a.explore {
   border: 2px solid;
   background-color: #0072ff;
   color: #fff;
+  margin: inherit;
 }
 
 .explore:hover {
